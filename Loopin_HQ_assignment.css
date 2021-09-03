@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.input-container {
+    border: 1px solid #000000;
+    background-color: #E3E2E2;
+    height: 40px;
+    width: 75%;
+}
+
+@media screen and (max-width:576px) {
+    .input-container {
+        font-size: 13px;
+    }
+}
+
+.inside-text-styling {
+    color: #323f4b;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.authors-unordered-list-items-container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.author-list-item-container {
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 0px 4px 4px #aaaaaa;
+    width: 75%;
+    background-color: #fff1f1;
+}
+
+.author-name-container {
+    background-color: #fff1f1;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 4px;
+}
+
+.icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.angle-icon {
+    padding: 15px;
+}
+
+.author-name-styling {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.author-details-styling {
+    margin-left: 20px;
+}
+
+.inside-list-element {
+    list-style-type: disc;
+    margin-left: 5px;
+}
